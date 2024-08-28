@@ -1,0 +1,5 @@
+// a script that displays the number of documents in the collection school
+
+query = {"name": "Holberton school"}
+update = {"$set": {"address": "972 Mission street"}}
+result = collection.update_many(query, update)
